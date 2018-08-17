@@ -119,8 +119,7 @@ end
 
 def display_views(articles)
   articles[:response][:results].each do |article|
-    puts puts "\"#{article[:webTitle]}\" article has #{article[:views]} views."
-    puts ""
+    puts "#{article[:webTitle]} has #{article[:views]} views."
   end
 end
 
